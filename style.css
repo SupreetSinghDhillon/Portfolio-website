@@ -1,11 +1,30 @@
 body{
-    background-image: linear-gradient(to left, #042f66,#090e07);
-    color: azure;
+
     font-weight: 300;
     font-family: 'Hind Siliguri', sans-serif;
     margin: 5%;
 }
 
+.orange{
+    background-image: linear-gradient(to left, #dd6b14,#090e07,rgb(138, 19, 19));
+    color: azure;
+}
+.blue{
+    background-image: linear-gradient(to left, #042f66,#090e07);
+    color: azure;
+}
+
+#selectTheme{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#selectTheme select{
+    margin-left: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 main{
     display: flex;
     flex-direction: column;
